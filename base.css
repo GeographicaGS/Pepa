@@ -1,3 +1,4 @@
+
 @margin_gap : 10px;
 @line_height : 18px;
 
@@ -702,7 +703,13 @@ html{
 }
 
 .margin{ margin: 10px;}
-.padding{ margin: 10px;}
+.padding{ padding: 10px;}
+
+.margin15{ margin: 15px;}
+.padding15{ padding: 15px;}
+
+.margin20{ margin: 20px;}
+.padding20{ padding: 20px;}
 
 /* defaults margin shorthand*/
 .ml{margin-left: 10px !important; }
@@ -936,5 +943,16 @@ ul.inlblock li{ display: inline-block}
   line-height: @line_height;
 }
 
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
 
+.textleft{
+    text-align: left !important;
+}
+
+.textright{
+    text-align: right !important;
+}
 
