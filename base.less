@@ -1195,3 +1195,26 @@ ul.inlblock li{ display: inline-block}
 
 .uppercase{ text-transform: uppercase;}
 
+.plh(@h){
+  line-height: @h;
+  height: @h;
+}
+
+.placeholder(@color){
+  ::-webkit-input-placeholder {
+    color: @color;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+     color: @color;  
+  }
+
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: @color;  
+  }
+
+  :-ms-input-placeholder {  
+     color: @color;  
+  }
+}
+
